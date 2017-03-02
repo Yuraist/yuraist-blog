@@ -18,8 +18,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="-272">
+              <caret line="43" column="80" lean-forward="false" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info/templates/info/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="217" lean-forward="false" selection-start-line="17" selection-start-column="217" selection-end-line="17" selection-end-column="217" />
               <folding />
             </state>
           </provider>
@@ -29,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/yuraist/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-227">
-              <caret line="60" column="61" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="61" />
+              <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -113,7 +123,6 @@
         <option value="$PROJECT_DIR$/info/views.py" />
         <option value="$PROJECT_DIR$/info/url.py" />
         <option value="$PROJECT_DIR$/info/urls.py" />
-        <option value="$PROJECT_DIR$/info/templates/info/about.html" />
         <option value="$USER_HOME$/Desktop/Code/Web/Python/spam.py" />
         <option value="$USER_HOME$/Desktop/Code/Python/spammer_z/spam.py" />
         <option value="$USER_HOME$/Desktop/Code/Python/spammer_z/sender.py" />
@@ -130,6 +139,7 @@
         <option value="/private/var/folders/l2/64k0rny114x6pb2x22vvxnb80000gn/T/fz3temp-2/urls.py" />
         <option value="/private/var/folders/l2/64k0rny114x6pb2x22vvxnb80000gn/T/fz3temp-2/gunicorn_config.py" />
         <option value="/private/var/folders/l2/64k0rny114x6pb2x22vvxnb80000gn/T/fz3temp-2/settings 2.py" />
+        <option value="$PROJECT_DIR$/info/templates/info/about.html" />
         <option value="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
       </list>
     </option>
@@ -269,6 +279,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yuraist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuraist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yuraist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="info" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -907,14 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info/templates/info/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Code/Web/Python/spam.py" />
     <entry file="file://$USER_HOME$/Desktop/Code/Python/spammer_z/sender.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1050,15 +1074,23 @@
     <entry file="file://$PROJECT_DIR$/yuraist/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-227">
-          <caret line="60" column="61" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="61" />
+          <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info/templates/info/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="217" lean-forward="false" selection-start-line="17" selection-start-column="217" selection-end-line="17" selection-end-column="217" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="-272">
+          <caret line="43" column="80" lean-forward="false" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
           <folding />
         </state>
       </provider>
