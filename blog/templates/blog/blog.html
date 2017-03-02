@@ -1,0 +1,36 @@
+{% extends 'blog/base.html' %}
+
+<!-- Title -->
+{% block title %}Blog{% endblock %}
+<!--Headtitle-->
+{% block headtitle %}Блог{% endblock %}
+<!-- Content-->
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            {% for post in posts %}
+            <div class="post">
+                <a href="{%  url 'detail_post_page' pk=post.pk %}" class="title-2">
+                    <h2 class="title-2">
+                        {{ post.title }}
+                    </h2>
+                </a>
+                <h3 class="subtitle-2">
+                    {{ post.subtitle }}
+                </h3>
+
+                <!--
+                <div class="post-img">
+                    <img src="/static/img/test_img.jpg">
+                </div>
+                -->
+                <p class="text">
+                    {% autoescape off %}
+                    {{ post.text | truncatechars:350 }}
+                    {% endautoescape %}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

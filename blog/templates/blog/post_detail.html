@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="post">
+                <h2 class="title-2">
+                    {{ post.title }}
+                </h2>
+                <h3 class="subtitle-2">
+                    {{ post.subtitle }}
+                </h3>
+                <!--
+                <div class="post-img">
+                    <img src="/static/img/test_img.jpg">
+                </div>
+                -->
+                {% autoescape off %}
+                    <p class="text">
+                        {{ post.text }}
+                    </p>
+                {% endautoescape %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

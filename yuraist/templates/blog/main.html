@@ -1,0 +1,44 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}Yuraist{% endblock %}
+{% block headtitle %}Главная{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-9">
+            {% for post in posts %}
+            <div class="post">
+                <a href="{%  url 'detail_post_page' pk=post.pk %}" class="title-2">
+                    <h2 class="title-2">
+                        {{ post.title }}
+                    </h2>
+                </a>
+                <h3 class="subtitle-2">
+                    {{ post.subtitle }}
+                </h3>
+
+                <!--
+                <div class="post-img">
+                    <img src="/static/img/test_img.jpg">
+                </div>
+                -->
+                {% autoescape off %}
+                    {{ post.text | truncatechars:350 }}
+                {% endautoescape %}
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-3">
+            <div class="side-bar">
+                <h2 class="bar-title">ПОСЛЕДНИЕ ЗАПИСИ</h2>
+                <div class="sidebar-line"></div>
+                <ol class="list">
+                    {% for post in last_posts %}
+                        <li>
+                            <a href="{% url 'detail_post_page' pk=post.pk %}">{{ post.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+    </div>
+{% endblock %}

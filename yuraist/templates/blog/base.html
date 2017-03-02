@@ -1,0 +1,98 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/png" href="{%  static 'img/logo_1.png' %}"/>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts/' %}">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar sticky-top navbar-inverse navbar-toggleable-md">
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand logo" href="{% url 'main' %}">YURAIST</a>
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto menu-items">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'blog_page' %}">Blog</a>
+                </li>
+
+                <!-- PROJECT : WORK IN PROCESS
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'main' %}">Projects</a>
+                </li>
+                -->
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'about_page' %}">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'contact_page' %}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="page-title">
+            <h1 class="superhead">{% block headtitle %}{% endblock %}</h1>
+        </div>
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer>
+        <div class="large-line"></div>
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main' %}">Yuraist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'blog_page' %}">Blog</a>
+                </li>
+
+                <!-- PROJECT : WORK IN PROCESS
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main' %}">Projects</a>
+                </li>
+                -->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main' %}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'main' %}">Contact</a>
+                </li>
+            </ul>
+            <div class="small-line"></div>
+            <div class="footer">
+                <p>Copyright 2017 Yuraist.com</p>
+                <p>All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
