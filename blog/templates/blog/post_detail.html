@@ -12,11 +12,13 @@
                 <h3 class="subtitle-2">
                     {{ post.subtitle }}
                 </h3>
-                <!--
-                <div class="post-img">
-                    <img src="/static/img/test_img.jpg">
-                </div>
-                -->
+
+                {% if post.image_url %}
+                    <div class="post-img">
+                        <img src="{{ post.image_url }}">
+                    </div>
+                {% endif %}
+
                 {% autoescape off %}
                     <p class="text">
                         {{ post.text }}

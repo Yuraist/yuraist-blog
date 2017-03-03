@@ -3,3 +3,4 @@ __pycache__
 yuraist_com
 db.sqlite3
 .DS_Store
+local_settings.py

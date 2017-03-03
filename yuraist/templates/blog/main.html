@@ -16,11 +16,12 @@
                     {{ post.subtitle }}
                 </h3>
 
-                <!--
-                <div class="post-img">
-                    <img src="/static/img/test_img.jpg">
-                </div>
-                -->
+                {% if post.image_url %}
+                    <div class="post-img">
+                        <img src="{{ post.image_url }}">
+                    </div>
+                {% endif %}
+
                 {% autoescape off %}
                     {{ post.text | truncatechars:350 }}
                 {% endautoescape %}

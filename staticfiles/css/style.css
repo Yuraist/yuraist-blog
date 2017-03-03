@@ -175,10 +175,22 @@ footer {
     margin-bottom: 30px;
 }
 
+.contact {
+    padding: 40px;
+}
+
 .contact a, .contact ul {
     color: #fff;
     list-style-type: none;
     margin-left: -10px;
-    margin-top: 5px;
+}
+
+.contact li {
+    margin-right: 50px;
+    display: inline;
+    font-size: larger;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
