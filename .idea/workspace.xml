@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ead47-1d44-4760-abdb-bce2c4e57b01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/img/logo_1.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/blog.html" afterPath="$PROJECT_DIR$/blog/templates/blog/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staticfiles/css/style.css" afterPath="$PROJECT_DIR$/staticfiles/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuraist/templates/blog/base.html" afterPath="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuraist/templates/blog/main.html" afterPath="$PROJECT_DIR$/yuraist/templates/blog/main.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
@@ -70,11 +66,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yuraist/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-805">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="-119">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+              <folding>
+                <element signature="e#25#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,7 +123,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="1938">
               <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
               <folding />
             </state>
@@ -94,8 +134,36 @@
         <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1488624385000" expanded="true" signature="370:401" ph="{% block title ... %}" />
+                <marker date="1488624385000" expanded="true" signature="927:4762" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1019:2229" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1248:1320" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1469:2218" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1524:2203" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1569:1669" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1692:1879" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="1927:2033" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2078:2185" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2279:2504" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2312:2402" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2348:2383" ph="{% block headtitle ... %}" />
+                <marker date="1488624385000" expanded="true" signature="2432:2493" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2446:2479" ph="{% block content ... %}" />
+                <marker date="1488624385000" expanded="true" signature="2537:3659" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2608:3645" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2660:3442" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2698:2796" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2834:2934" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="2957:3137" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="3178:3280" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="3318:3424" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="3518:3630" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="3694:4152" ph="..." />
+                <marker date="1488624385000" expanded="true" signature="3728:3977" ph="{...}" />
+                <marker date="1488624385000" expanded="true" signature="3779:3833" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +203,6 @@
         <option value="$USER_HOME$/Desktop/Code/Python/spammer_z/sender.py" />
         <option value="$PROJECT_DIR$/yuraist/static/css/style.css" />
         <option value="$PROJECT_DIR$/info/templates/info/contact.html" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/yuraist/views.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/yuraist/urls.py" />
@@ -147,11 +214,13 @@
         <option value="$PROJECT_DIR$/yuraist/templates/blog/main.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/blog.html" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/staticfiles/css/style.css" />
         <option value="$PROJECT_DIR$/yuraist/local_settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../yuraist_github/yuraist/settings.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/yuraist/settings.py" />
       </list>
     </option>
@@ -181,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,24 +310,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="staticfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yuraist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yuraist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staticfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +401,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -357,12 +408,12 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -697,8 +748,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/urls.py" />
-    <entry file="file://$PROJECT_DIR$/yuraist/urls.py" />
     <entry file="file://$PROJECT_DIR$/yuraist/views.py" />
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
     <entry file="file://$PROJECT_DIR$/blog/models.py" />
@@ -716,7 +765,6 @@
     <entry file="file://$PROJECT_DIR$/blog/admin.py" />
     <entry file="file://$PROJECT_DIR$/info/models.py" />
     <entry file="file://$PROJECT_DIR$/info/admin.py" />
-    <entry file="file://$PROJECT_DIR$/blog/admin.py" />
     <entry file="file://$PROJECT_DIR$/info/admin.py" />
     <entry file="file://$PROJECT_DIR$/projects/views.py" />
     <entry file="file://$PROJECT_DIR$/info/__init__.py" />
@@ -740,7 +788,6 @@
     <entry file="file://$PROJECT_DIR$/info/templates/info/contact.html" />
     <entry file="file://$PROJECT_DIR$/yuraist/static/css/style.css" />
     <entry file="file://$PROJECT_DIR$/yuraist/views.py" />
-    <entry file="file://$PROJECT_DIR$/blog/views.py" />
     <entry file="file:///private/var/folders/l2/64k0rny114x6pb2x22vvxnb80000gn/T/fz3temp-2/settings.py" />
     <entry file="file://$PROJECT_DIR$/yuraist/urls.py" />
     <entry file="file:///private/var/folders/l2/64k0rny114x6pb2x22vvxnb80000gn/T/fz3temp-2/urls.py" />
@@ -752,45 +799,61 @@
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog.html" />
     <entry file="file://$PROJECT_DIR$/info/models.py" />
-    <entry file="file://$PROJECT_DIR$/blog/models.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9876">
           <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-          <folding>
-            <element signature="e#216#225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1488624385000" expanded="true" signature="370:401" ph="{% block title ... %}" />
+            <marker date="1488624385000" expanded="true" signature="927:4762" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1019:2229" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1248:1320" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1469:2218" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1524:2203" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1569:1669" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1692:1879" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="1927:2033" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2078:2185" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2279:2504" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2312:2402" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2348:2383" ph="{% block headtitle ... %}" />
+            <marker date="1488624385000" expanded="true" signature="2432:2493" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2446:2479" ph="{% block content ... %}" />
+            <marker date="1488624385000" expanded="true" signature="2537:3659" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2608:3645" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2660:3442" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2698:2796" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2834:2934" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="2957:3137" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="3178:3280" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="3318:3424" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="3518:3630" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="3694:4152" ph="..." />
+            <marker date="1488624385000" expanded="true" signature="3728:3977" ph="{...}" />
+            <marker date="1488624385000" expanded="true" signature="3779:3833" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="1938">
           <caret line="114" column="20" lean-forward="false" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
@@ -805,10 +868,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../yuraist_github/yuraist/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yuraist/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-805">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="-119">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
