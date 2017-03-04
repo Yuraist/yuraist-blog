@@ -22,6 +22,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '=pybeoglt05yjcso0#ym&=r&gesrokrntliq$z8964)tna+4z!'
 
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
@@ -54,6 +56,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'yuraist.urls'
+
+DEFAULT_CHARSET = 'utf-8'
 
 TEMPLATES = [
     {
