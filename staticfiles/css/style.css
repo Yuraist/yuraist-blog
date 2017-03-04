@@ -123,7 +123,11 @@ footer {
 .side-bar {
     margin-top: 20px;
     padding: 5px;
-    background-color: beige;
+    background-color: white;
+}
+
+.side-bar li {
+    margin-right: 10px;
 }
 
 .bar-title {
@@ -193,4 +197,20 @@ footer {
     text-decoration-color: white;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.social-buttons {
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-buttons ul {
+    list-style: none;
+    margin-left: -20px;
+}
+
+.social-buttons li {
+    display: inline;
 }
