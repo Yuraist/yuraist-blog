@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962ead47-1d44-4760-abdb-bce2c4e57b01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuraist/templates/blog/base.html" afterPath="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -127,39 +128,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="410">
+              <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
               <folding>
-                <marker date="1488624385000" expanded="true" signature="370:401" ph="{% block title ... %}" />
-                <marker date="1488624385000" expanded="true" signature="927:4762" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1019:2229" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1248:1320" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1469:2218" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1524:2203" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1569:1669" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1692:1879" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="1927:2033" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2078:2185" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2279:2504" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2312:2402" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2348:2383" ph="{% block headtitle ... %}" />
-                <marker date="1488624385000" expanded="true" signature="2432:2493" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2446:2479" ph="{% block content ... %}" />
-                <marker date="1488624385000" expanded="true" signature="2537:3659" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2608:3645" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2660:3442" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2698:2796" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2834:2934" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="2957:3137" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="3178:3280" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="3318:3424" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="3518:3630" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="3694:4152" ph="..." />
-                <marker date="1488624385000" expanded="true" signature="3728:3977" ph="{...}" />
-                <marker date="1488624385000" expanded="true" signature="3779:3833" ph="{...}" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,7 +186,6 @@
         <option value="$PROJECT_DIR$/yuraist/templates/blog/main.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/blog.html" />
-        <option value="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/staticfiles/css/style.css" />
         <option value="$PROJECT_DIR$/yuraist/local_settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -219,6 +193,7 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/yuraist/settings.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/yuraist/templates/blog/base.html" />
       </list>
     </option>
   </component>
@@ -800,41 +775,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9876">
           <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1488624385000" expanded="true" signature="370:401" ph="{% block title ... %}" />
-            <marker date="1488624385000" expanded="true" signature="927:4762" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1019:2229" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1248:1320" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1469:2218" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1524:2203" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1569:1669" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1692:1879" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="1927:2033" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2078:2185" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2279:2504" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2312:2402" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2348:2383" ph="{% block headtitle ... %}" />
-            <marker date="1488624385000" expanded="true" signature="2432:2493" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2446:2479" ph="{% block content ... %}" />
-            <marker date="1488624385000" expanded="true" signature="2537:3659" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2608:3645" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2660:3442" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2698:2796" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2834:2934" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="2957:3137" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="3178:3280" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="3318:3424" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="3518:3630" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="3694:4152" ph="..." />
-            <marker date="1488624385000" expanded="true" signature="3728:3977" ph="{...}" />
-            <marker date="1488624385000" expanded="true" signature="3779:3833" ph="{...}" />
+            <element signature="e#216#225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -922,6 +864,16 @@
         <state relative-caret-position="221">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuraist/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="129" column="24" lean-forward="false" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
