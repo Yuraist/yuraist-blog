@@ -1,5 +1,6 @@
 body {
     background-color: #FAFAFA;
+    background-image: url("/static/img/photography.png");
 }
 
 .navbar {
