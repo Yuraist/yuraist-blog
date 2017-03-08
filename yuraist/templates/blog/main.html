@@ -1,6 +1,7 @@
 {% extends 'blog/base.html' %}
+{% load staticfiles %}
 
-{% block title %}Yuraist{% endblock %}
+{% block title %}Yuraist | Главная {% endblock %}
 {% block headtitle %}Главная{% endblock %}
 {% block content %}
     <div class="row">
@@ -39,6 +40,35 @@
                         </li>
                     {% endfor %}
                 </ol>
+            </div>
+
+            <div class="side-bar">
+                <h2 class="bar-title">ПОДПИШИСЬ</h2>
+                <div class="sidebar-line"></div>
+                <div class="social-buttons">
+                    <ul>
+                        <li>
+                            <a href="https://vk.com/iostory" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/vk.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/yuraistom" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/facebook.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/yuraist" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/instagram.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/yuraist" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/twitter.png' %}" height="42px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

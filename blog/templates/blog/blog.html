@@ -1,13 +1,14 @@
 {% extends 'blog/base.html' %}
+{% load staticfiles %}
 
 <!-- Title -->
-{% block title %}Blog{% endblock %}
+{% block title %}Yuraist | Блог{% endblock %}
 <!--Headtitle-->
 {% block headtitle %}Блог{% endblock %}
 <!-- Content-->
 {% block content %}
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-9">
             {% for post in posts %}
             <div class="post">
                 <a href="{%  url 'detail_post_page' pk=post.pk %}" class="title-2">
@@ -32,6 +33,36 @@
                 </p>
             </div>
             {% endfor %}
+        </div>
+        <div class="col-md-3">
+            <div class="side-bar">
+                <h2 class="bar-title">ПОДПИШИСЬ</h2>
+                <div class="sidebar-line"></div>
+                <div class="social-buttons">
+                    <ul>
+                        <li>
+                            <a href="https://vk.com/iostory" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/vk.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/yuraistom" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/facebook.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/yuraist" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/instagram.png' %}" height="42px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/yuraist" target="_blank" class="social">
+                                <img src="{% static 'img/social_icons/twitter.png' %}" height="42px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}
