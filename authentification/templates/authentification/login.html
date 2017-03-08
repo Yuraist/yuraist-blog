@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+{% load staticfiles %}
+
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <div class="post">
+
+                <form>
+                    <input type="text" name="email_or_login" placeholder="Email or Login">
+                    <input type="password" name="password" placeholder="Password">
+                    <button type="submit" name="login">Войти</button>
+                    <button type="submit" name="login">Войти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -25,7 +25,7 @@ SECRET_KEY = '=pybeoglt05yjcso0#ym&=r&gesrokrntliq$z8964)tna+4z!'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'projects',
     'blog',
     'info',
+    'authentification',
 )
 
 MIDDLEWARE_CLASSES = (
