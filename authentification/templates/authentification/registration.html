@@ -4,5 +4,26 @@
 {% block title %}Регистрация{% endblock %}
 
 {% block content %}
-    
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <div class="post">
+                <h2 class="bar-title left-title">ВХОД</h2>
+                <div class="sidebar-line"></div>
+                <form>
+                    <input type="text" name="first_name" placeholder="First Name" class="full-width">
+                    <input type="text" name="last_name" placeholder="Last Name" class="full-width">
+                    <input type="text" name="email_or_login" placeholder="Email or Login" class="full-width">
+                    <input type="password" name="password" placeholder="Password" class="full-width">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button type="submit" name="login" id="login">Зарегистрироваться</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" name="register" id="register">Войти</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 {% endblock %}
