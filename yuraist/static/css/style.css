@@ -216,3 +216,49 @@ footer {
 .social-buttons li {
     display: inline;
 }
+
+.col-6 {
+    max-width: 95%;
+}
+
+input {
+    height: 60px;
+    border: none;
+    color: #BEBEBE;
+    background-color: #F6F6F6;
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.full-width {
+
+}
+
+#login, #register {
+    margin: 10px;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: #002D44;
+    min-width: 90%;
+    max-width: 100%;
+    font-size: large;
+    border-radius: 100px;
+}
+
+#register {
+    background: none;
+    color: #002D44;
+    font-size: large;
+    text-align: center;
+    border: 2px solid #002D44;
+    border-radius: 100px;
+}
+
+.left-title {
+    text-align: left;
+    margin-left: 10px;
+}
