@@ -28,7 +28,7 @@ def registration(request):
             user.save()
         except:
             return render(request, 'authentification/registration.html', {'error_message': 'НЕ УДАЛОСЬ ЗАРЕГИСТРИРОВАТЬ АККАУНТ. ПОЖАЛУЙСТА, ПОВТОРИТЕ ПОПЫТКУ'})
-
+        user = authenticate(username=username, password=password)
         if user is not None:
             if user.is_active:
                 login(request, user)
