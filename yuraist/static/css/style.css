@@ -281,7 +281,14 @@ textarea {
     text-align: left;
 }
 
-#send {
-    background-color: #002D44;
+.send {
+    margin: 10px;
+    height: 60px;
+    border: none;
     color: white;
+    background-color: #002D44;
+    min-width: 90%;
+    max-width: 100%;
+    font-size: large;
+    border-radius: 100px;
 }

@@ -5,6 +5,7 @@
 {% block headtitle %}Редактировать{% endblock %}
 
 {% block content %}
+    {% if user.is_authenticated %}
     <form method="post">
     {% csrf_token %}
         <div class="row">
@@ -16,14 +17,15 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <textarea placeholder="Введите текст..." name="post-text"></textarea>
+                <textarea class="textarea" placeholder="Введите текст..." name="post-text"></textarea>
             </div>
         </div>
         <div class="row">
             <div class="col-6">
-                <input type="submit" value="Опубликовать" id="send">
+                <button type="submit" class="send">Опубликовать</button>
             </div>
         </div>
     </form>
+    {% endif %}
 {% endblock %}
 
