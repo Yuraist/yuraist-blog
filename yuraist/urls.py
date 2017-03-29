@@ -2,6 +2,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from .views import main
 from authentification.views import login_user, registration, logout_user
+from editor.views import create_post
 
 urlpatterns = [
     # Examples:
@@ -14,4 +15,5 @@ urlpatterns = [
     url(r'^login/$', login_user, name='login_user'),
     url(r'^registration/$', registration, name='registration'),
     url(r'^logout/$', logout_user, name='logout_user'),
+    url(r'^create/$', create_post, name='create_post'),
 ]
