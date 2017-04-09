@@ -19,6 +19,12 @@ body {
     font-size: xx-large;
 }
 
+@media (max-width: 600px) {
+    .logo {
+        margin-left: 10px;
+    }
+}
+
 .logo img {
     width: auto;
     height: 36px;
