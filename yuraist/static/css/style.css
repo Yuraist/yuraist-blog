@@ -350,3 +350,14 @@ textarea {
     font-size: large;
     border-radius: 100px;
 }
+
+/*002D44*/
+
+pre {
+    padding: 15px;
+    background: rgb(0, 45, 68);
+    opacity: 0.95;
+    color: white;
+    border-radius: 5px;
+    border-left: solid #186AF1 5px;
+}
