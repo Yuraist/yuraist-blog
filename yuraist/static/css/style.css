@@ -138,6 +138,10 @@ footer {
     border-radius: 5px;
 }
 
+.post img {
+    max-width: 100%;
+}
+
 .title {
     margin-bottom: 5px;
     font-weight: 800;
