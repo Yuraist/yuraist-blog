@@ -129,13 +129,36 @@ footer {
     margin-left: 0px;
 }
 
-.post {
+.post, .next-post {
     margin-top: 20px;
     padding: 30px;
     background-color: white;
-
     box-shadow: 0px 2px 2px 0px rgba(140,140,140,0.30);
     border-radius: 5px;
+    overflow: hidden;
+}
+
+.next-post {
+    display: block;
+    width: 100%;
+}
+
+.next-post-title {
+    margin-top: 25px;
+    display: inline;
+    font-weight: 600;
+    font-size: x-large;
+    color: #292B2C;
+}
+
+.read-more, .read-more:hover {
+    padding: 15px 10px 15px 10px;
+    background-color: #186AF1;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline;
+    color: #FFFFFF;
+    float: right;
 }
 
 .post img {
