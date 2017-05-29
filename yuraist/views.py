@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from blog.models import Post
 
 def main(request):
@@ -8,3 +8,6 @@ def main(request):
         'posts': posts,
         'last_posts': last_posts,
     })
+
+def robots(request):
+    return render_to_response('blog/robots.txt', content_type="plain/text")

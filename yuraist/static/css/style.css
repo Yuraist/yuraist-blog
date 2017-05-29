@@ -144,6 +144,7 @@ footer {
 }
 
 .next-post-title {
+    max-width: 70%;
     margin-top: 25px;
     display: inline;
     font-weight: 600;
