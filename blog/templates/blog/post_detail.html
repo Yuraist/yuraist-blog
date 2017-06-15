@@ -26,12 +26,12 @@
                     </p>
                 {% endautoescape %}
             </div>
-            {% if post.next_post_url %}
+            {% if post.next_post %}
             <div class="next-post">
                 <h2 class="title-2">Читай далее:</h2>
                 <div>
-                    <h3 class="next-post-title">{{ post.next_post_title }}</h3>
-                    <a href="{{ post.next_post_url }}" class="read-more">Читать</a>
+                    <h3 class="next-post-title">{{ post.next_post.title }}</h3>
+                    <a href="{% url 'detail_post_page' pk=post.next_post.pk %}" class="read-more">Читать</a>
                 </div>
             </div>
             {% endif %}
