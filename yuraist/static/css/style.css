@@ -246,12 +246,12 @@ footer {
 }
 
 .about {
-    background-color: #186AF1 !important;
+    /*background-color: #186AF1;*/
     box-shadow: 0px 10px 20px 0px rgba(0,45,68,0.30);
 }
 
 .about h2, .about p {
-    color: #FFF !important;
+    /*color: #FFF !important;*/
 }
 
 .about h2 {
@@ -272,7 +272,7 @@ footer {
 }
 
 .contact a, .contact ul {
-    color: #fff;
+    /*color: #fff;*/
     list-style-type: none;
     margin-left: -10px;
 }
@@ -282,7 +282,7 @@ footer {
     display: inline;
     font-size: larger;
     text-decoration-style: solid;
-    text-decoration-color: white;
+    /*text-decoration-color: white;*/
     margin-top: 10px;
     margin-bottom: 5px;
 }
