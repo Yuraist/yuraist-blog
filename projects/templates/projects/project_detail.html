@@ -1,0 +1,31 @@
+{% extends "blog/base.html" %}
+{% load staticfiles %}
+
+{% block title %} {{ project.name }} | Yuraist.com {% endblock %}
+{% block headtitle %} Проекты {% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+                <div class="post">
+                    {% if project.image %}
+                        <div class="post-img">
+                            <img src="{{ project.image.url }}" alt>
+                        </div>
+                    {% endif %}
+                    <h2 class="title-2">
+                        {{ project.name }}
+                    </h2>
+
+                    <p class="text">
+                        {% autoescape off %}
+                        {{ project.description | truncatechars:350 }}
+                        {% endautoescape %}
+                    </p>
+{#                    {% for article in project.articles.all %}#}
+{#                        #}
+{#                    {% endfor %}#}
+                </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,4 +1,5 @@
-from django.conf.urls import include, url
+from django.conf.urls import include, url, static
+from django.conf import settings
 from django.contrib import admin
 from .views import main, robots
 from authentification.views import login_user, registration, logout_user
@@ -12,9 +13,12 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^blog/', include('blog.urls')),
     url(r'^info/', include('info.urls')),
+    url(r'^projects/', include('projects.urls')),
     url(r'^login/$', login_user, name='login_user'),
     url(r'^registration/$', registration, name='registration'),
     url(r'^logout/$', logout_user, name='logout_user'),
     url(r'^create/$', create_post, name='create_post'),
     url(r'^robots.txt$', robots),
 ]
+
+urlpatterns += static.static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
