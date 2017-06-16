@@ -18,10 +18,8 @@ class Post(models.Model):
     image_url = models.CharField(max_length=300, blank=True)
     text = models.TextField()
     publication_date = models.DateTimeField(auto_now_add=True)
-    tags = models.ManyToManyField(Tag, blank=True)
 
-    # next_post_title = models.CharField(max_length=120, blank=True)
-    # next_post_url = models.URLField(blank=True)
+    tags = models.ManyToManyField(Tag, blank=True)
     next_post = models.ForeignKey('self', null=True, blank=True)
 
     def __str__(self):
