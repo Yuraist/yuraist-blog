@@ -19,7 +19,7 @@
 
                     <p class="text">
                         {% autoescape off %}
-                        {{ project.description | truncatechars:350 }}
+                        {{ project.description }}
                         {% endautoescape %}
                     </p>
 {#                    {% for article in project.articles.all %}#}
