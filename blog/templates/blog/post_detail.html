@@ -4,67 +4,82 @@
 {% block title %}{{ post.title }} | Yuraist {% endblock %}
 
 {% block content %}
-    <div class="row">
-        <div class="col-md-9">
-            <div class="post">
-                <h2 class="title-2">
-                    {{ post.title }}
-                </h2>
-                <h3 class="subtitle-2">
-                    {{ post.subtitle }}
-                </h3>
+  <div class="row">
+    <div class="col-md-9">
+      <div class="post">
+        <h2 class="title-2">
+          {{ post.title }}
+        </h2>
+        <h3 class="subtitle-2">
+          {{ post.subtitle }}
+        </h3>
 
-                {% if post.image_url %}
-                    <div class="post-img">
-                        <img src="{{ post.image_url }}">
-                    </div>
-                {% endif %}
+        {% if post.image_url %}
+          <div class="post-img">
+            <img src="{{ post.image_url }}">
+          </div>
+        {% endif %}
 
-                {% autoescape off %}
-                    <p class="text">
-                        {{ post.text }}
-                    </p>
-                {% endautoescape %}
-            </div>
-            {% if post.next_post %}
-            <div class="next-post">
-                <h2 class="title-2">Читай далее:</h2>
-                <div>
-                    <h3 class="next-post-title">{{ post.next_post.title }}</h3>
-                    <a href="{% url 'detail_post_page' pk=post.next_post.pk %}" class="read-more">Читать</a>
-                </div>
-            </div>
-            {% endif %}
+        {% autoescape off %}
+          <p class="text">
+            {{ post.text }}
+          </p>
+        {% endautoescape %}
+      </div>
+      {% if post.next_post %}
+        <div class="next-post">
+          <h2 class="title-2">Читай далее:</h2>
+          <div>
+            <h3 class="next-post-title">{{ post.next_post.title }}</h3>
+            <a href="{% url 'detail_post_page' pk=post.next_post.pk %}" class="read-more">Читать</a>
+          </div>
         </div>
-        <div class="col-md-3">
-            <div class="side-bar">
-                <h2 class="bar-title">ПОДПИШИСЬ</h2>
-                <div class="sidebar-line"></div>
-                <div class="social-buttons">
-                    <ul>
-                        <li>
-                            <a href="https://vk.com/iostory" target="_blank" class="social">
-                                <img src="{% static 'img/social_icons/vk.png' %}" height="42px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/yuraistom" target="_blank" class="social">
-                                <img src="{% static 'img/social_icons/facebook.png' %}" height="42px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/yuraist" target="_blank" class="social">
-                                <img src="{% static 'img/social_icons/instagram.png' %}" height="42px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/yuraist" target="_blank" class="social">
-                                <img src="{% static 'img/social_icons/twitter.png' %}" height="42px">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      {% endif %}
+      <hr>
+      <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
+      {% for comment in post.comments.all %}
+        <div class="post">
+          <div class="date">
+            <p>
+              {{ comment.created_date }}
+            </p>
+          </div>
+          <strong>{{ comment.author }}</strong> сказал(а):
+          <p>{{ comment.text|linebreaks }}</p>
         </div>
+      {% empty %}
+        <p>Тут еще коммертариев</p>
+      {% endfor %}
     </div>
+    <div class="col-md-3">
+      <div class="side-bar">
+        <h2 class="bar-title">ПОДПИШИСЬ</h2>
+        <div class="sidebar-line"></div>
+        <div class="social-buttons">
+          <ul>
+            <li>
+              <a href="https://vk.com/iostory" target="_blank" class="social">
+                <img src="{% static 'img/social_icons/vk.png' %}" height="42px">
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com/yuraistom" target="_blank" class="social">
+                <img src="{% static 'img/social_icons/facebook.png' %}" height="42px">
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/yuraist" target="_blank" class="social">
+                <img src="{% static 'img/social_icons/instagram.png' %}" height="42px">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/yuraist" target="_blank" class="social">
+                <img src="{% static 'img/social_icons/twitter.png' %}" height="42px">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 {% endblock %}

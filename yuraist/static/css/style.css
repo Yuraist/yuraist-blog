@@ -389,3 +389,14 @@ pre {
     border-radius: 5px;
     border-left: solid #186AF1 5px;
 }
+
+.comment {
+    margin: 20px 0 20px 20px;
+}
+
+.date p {
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: small;
+    color: #444444;
+}
