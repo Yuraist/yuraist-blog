@@ -1,10 +1,12 @@
 {% extends 'blog/base.html' %}
-
+{% block title %}Добавить комментарий{% endblock %}
 {% block content %}
-  <h1>Add comment</h1>
-  <form method="post" class="post-form">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="save btn btn-default">Send</button>
-  </form>
+  <div class="post">
+    <h1>Добавить комментарий</h1>
+    <form method="post" class="post-form">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="save btn btn-default">Send</button>
+    </form>
+  </div>
 {% endblock %}
